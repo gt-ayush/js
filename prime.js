@@ -1,14 +1,12 @@
 let j = 51;
 p=0;
-for (let i = 0;i<=100;i++){
-    if (j%i===0){
-       p=1;
-       break;
+for (let i = 0;i<=j;i++){
+    if (j%i==0){
+       p++;
     }
-    else{p=0}
     
 }
-if (p==1){
+if (p==2){
     console.log("Prime no.")
 }
 else{
