@@ -17,3 +17,5 @@ do {
     i++;
 
 }while(i<10)
+
+// this is same as java
