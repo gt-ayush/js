@@ -1,5 +1,6 @@
-
-for (let i=0;i<10;){
+let i=0
+for (;;){
 console.log(i);
 i++;
 }
+
