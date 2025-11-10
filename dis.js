@@ -6,5 +6,5 @@ Vid : "12433124",
 }
 dis['Batch']="Btech CSE"
 dis.Vid="102733471"
-
+delete dis.Vid
 console.log (dis)
