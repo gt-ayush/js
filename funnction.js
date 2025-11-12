@@ -1,8 +1,10 @@
-class funnction(){
+const pi =3.14;
+
 function H(){
     let ns=24;
     let as=1;
-    console.log("totle present student are:",ns-as)
+    return (ns-as)**pi;
 }
-}
-funnction.H()
+
+let p =H();
+console.log(p);
